@@ -64,7 +64,7 @@ Me apasiona aprender nuevas tecnologías y mejorar la arquitectura de mis proyec
 
 📫 **Contacto:**  
 - GitHub: [@Terr0r1st0](https://github.com/Terr0r1st0)  
-- *(Agrega aquí tu correo o LinkedIn si quieres)*
+- Correo electronico: *ivandavidvargasleon@gmail.com*
 
 ---
 
