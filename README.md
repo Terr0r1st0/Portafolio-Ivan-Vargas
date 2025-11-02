@@ -1,72 +1,47 @@
-# 💼 Portafolio de Proyectos
+# Astro Starter Kit: Minimal
 
-¡Bienvenido a mi portafolio! 🚀  
-Aquí presento algunos de los proyectos que he desarrollado utilizando **Java**, **MySQL**, **PostgreSQL** y herramientas locales como **Laragon** y **XAMPP**.
+```sh
+npm create astro@latest -- --template minimal
+```
 
----
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-## ⚙️ Tecnologías que manejo
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-💻 **Lenguajes y frameworks**
-- Java (con JDBC y Servlets)
-- HTML, CSS, JavaScript  
-- Bootstrap  
+## 🚀 Project Structure
 
-🗄️ **Bases de datos**
-- MySQL  
-- PostgreSQL  
+Inside of your Astro project, you'll see the following folders and files:
 
-🧰 **Herramientas**
-- Laragon  
-- XAMPP  
-- Render (para despliegue)
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
----
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-## 🧩 Proyecto 1: **Gestión de Proyectos**
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-**Repositorio:** [Terr0r1st0/GestionProyectos](https://github.com/Terr0r1st0/GestionProyectos)  
-**Demo:** [https://gestionproyectos.onrender.com/](https://gestionproyectos.onrender.com/)
+Any static assets, like images, can be placed in the `public/` directory.
 
-**Descripción:**  
-Aplicación web para la **gestión y seguimiento de proyectos**. Permite crear, asignar y controlar tareas, equipos y responsables. Incluye autenticación de usuarios y panel administrativo.
+## 🧞 Commands
 
-**Tecnologías utilizadas:**
-- Java (Servlets / JSP)
-- MySQL  
-- HTML, CSS, Bootstrap  
-- Desarrollado con **Laragon**  
-- Desplegado en **Render**
+All commands are run from the root of the project, from a terminal:
 
----
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## ⚽ Proyecto 2: **Taller de Fútbol**
+## 👀 Want to learn more?
 
-**Repositorio:** [Terr0r1st0/TallerFutbol](https://github.com/Terr0r1st0/TallerFutbol)  
-**Demo:** [https://tallerfutbol.onrender.com/](https://tallerfutbol.onrender.com/)
-
-**Descripción:**  
-Aplicación web para la **gestión de un taller o escuela de fútbol**, que permite administrar jugadores, entrenadores, horarios y estadísticas.
-
-**Tecnologías utilizadas:**
-- Java (Servlets / JSP)
-- PostgreSQL  
-- HTML, CSS, Bootstrap  
-- Desarrollado con **Laragon**  
-- Desplegado en **Render**
-
----
-
-## 👨‍💻 Sobre mí
-
-Soy un desarrollador enfocado en crear **aplicaciones web robustas y eficientes con Java**.  
-Me apasiona aprender nuevas tecnologías y mejorar la arquitectura de mis proyectos.
-
-📫 **Contacto:**  
-- GitHub: [@Terr0r1st0](https://github.com/Terr0r1st0)  
-- Correo electronico: *ivandavidvargasleon@gmail.com*
-
----
-
-✨ *Gracias por visitar mi portafolio.*
-
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
