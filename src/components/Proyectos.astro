@@ -9,7 +9,8 @@ const proyectos = [
     tecnologias: ["SpringBoot", "MySQL", "CSS", "HTML", "Java"],
     imagen: "/proyectos/GestionFutbol.png", // Asegúrate de tener esta imagen en public/proyectos/
     demo: "#",
-    codigo: "https://github.com/Terr0r1st0/TallerFutbol.git"
+    codigo: "https://github.com/Terr0r1st0/TallerFutbol.git",
+    link: "https://tallerfutbol.onrender.com/"
   },
   {
     titulo: "Gestion de Proyectos de Grado",
@@ -17,7 +18,8 @@ const proyectos = [
     tecnologias: ["Java", "CSS", "HTML", "MySQL", "XAMPP", "SpringBoot"],
     imagen: "/proyectos/GestionProyectos.png", // Asegúrate de tener esta imagen en public/proyectos/
     demo: "#",
-    codigo: "https://github.com/Terr0r1st0/GestionProyectos.git"
+    codigo: "https://github.com/Terr0r1st0/GestionProyectos.git",
+    link: "https://gestionproyectos.onrender.com/"
   }
 ];
 ---
@@ -199,6 +201,7 @@ const proyectos = [
             <div class="proyecto-links">
             
               <a href={proyecto.codigo} target="_blank" rel="noopener noreferrer" class="proyecto-link link-code">Ver Código</a>
+              <a href={proyecto.link} target="_blank" rel="noopener noreferrer" class="proyecto-link link-code">Ver Proyecto</a>
             </div>
           </div>
         </div>
